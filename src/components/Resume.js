@@ -3,12 +3,12 @@ export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="resume">
+      <section id="resume" style={{backgroundImage: `url("images/header-background.jpg")`, color : "white"}}>
 
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>Education</span></h1>
+               <h1><span style={{color : "white"}}>Education</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -17,10 +17,10 @@ export default  class Resume extends Component {
                   return(
                     <div className="row item">
                        <div className="twelve columns">
-                          <h3>{item.UniversityName}</h3>
-                          <p className="info">
+                          <h3 style={{color : "white"}}>{item.UniversityName}</h3>
+                          <p className="info" style={{color : "white"}}>
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          <span style={{color : "white"}}>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
                           {item.Achievements}
                           </p>
@@ -33,7 +33,7 @@ export default  class Resume extends Component {
          </div>
         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1><span style={{color : "white"}}>Work</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -42,10 +42,10 @@ export default  class Resume extends Component {
                   return(
                     <div className="row item">
                        <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
-                          <p className="info">
+                          <h3 style={{color : "white"}}>{item.CompanyName}</h3>
+                          <p className="info" style={{color : "white"}}>
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <span style={{color : "white"}}>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
                           {item.Achievements}
                           </p>
@@ -63,12 +63,12 @@ export default  class Resume extends Component {
          <div className="row skill">
 
             <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
+               <h1><span style={{color : "white"}}>Skills</span></h1>
             </div>
 
             <div className="nine columns main-col">
 
-               <p>
+               <p style={{color : "white"}}>
                {resumeData.skillsDescription2}
                </p>
 
@@ -80,7 +80,7 @@ export default  class Resume extends Component {
                     return(
                       <li>
                       <span className={`bar-expand ${item.skillname2.toLowerCase()}`}>
-                      </span><em>{item.skillname2}</em>
+                      </span><em style={{color : "white"}}>{item.skillname2}</em>
                       </li>
                     )
                   })
@@ -102,7 +102,7 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
+               <p style={{color : "white"}}>
                {resumeData.skillsDescription1}
                </p>
 
@@ -114,7 +114,7 @@ export default  class Resume extends Component {
                     return(
                       <li>
                       <span className={`bar-expand ${item.skillname1.toLowerCase()}`}>
-                      </span><em>{item.skillname1}</em>
+                      </span><em style={{color : "white"}}>{item.skillname1}</em>
                       </li>
                     )
                   })
@@ -137,7 +137,7 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
+               <p style={{color : "white"}}>
                {resumeData.skillsDescription3}
                </p>
 
@@ -149,7 +149,7 @@ export default  class Resume extends Component {
                     return(
                       <li>
                       <span className={`bar-expand ${item.skillname3.toLowerCase()}`}>
-                      </span><em>{item.skillname3}</em>
+                      </span><em style={{color : "white"}}>{item.skillname3}</em>
                       </li>
                     )
                   })

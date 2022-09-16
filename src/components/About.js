@@ -3,7 +3,7 @@ export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="about">
+      <section id="about" style={{backgroundImage: `url("images/bg1.jpg")`}}>
          <div className="row">
 
             <div className="three columns">
@@ -15,7 +15,7 @@ export default class About extends Component {
             <div className="nine columns main-col">
 
                <h2>About Me</h2>
-               <p>
+               <p style={{color : "white"}}>
                {
                  resumeData.aboutme
                }
@@ -26,7 +26,7 @@ export default class About extends Component {
                   <div className="columns contact-details">
 
                   <h2>Contact Details</h2>
-                  <p className="address">
+                  <p className="address" style={{color : "white"}}>
        						<span>{resumeData.name}</span>
                      <br></br>
        						   <span>
