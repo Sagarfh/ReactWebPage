@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
+    "imagebaseurl":"",
     "name": "Sagar Honnabindagi",
     "role": "Frontend Developer",
     "linkedinId":"Your LinkedIn Id",
