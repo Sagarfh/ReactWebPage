@@ -79,8 +79,8 @@ export default  class Resume extends Component {
                   resumeData.skills2 && resumeData.skills2.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname2.toLowerCase()}`}>
-                      </span><em style={{color : "white"}}>{item.skillname2}</em>
+                      <span className={`bar-expand ${item.skillname2.toLowerCase()}`}></span>
+                      <em style={{color : "white"}}>{item.skillname2}</em>
                       </li>
                     )
                   })

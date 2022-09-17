@@ -16,13 +16,13 @@ export default class Porfolio extends Component {
                     <a href="#modal-01">
                       
                       <div className="">
-                        <div className="portfolio-item-meta" style={{backgroundColor: "	#5F9EA0"}}>
+                        <div className="portfolio-item-meta" style={{backgroundImage: `url("images/card-bg.jpg")`}}>
                         <div class="card" style={{width: "18rem", height: "10rem"}}>
                           <div class="card-body">
                             <p class="card-text">
                             <h5 style={{fontSize: "2rem", color: "black", textDecoration: "underline overline"}}>{item.name}</h5>
                             <br/>
-                            <p style={{fontSize: "1.5rem", color: "white", fontWeight: "bold"}}>{item.description}</p>
+                            <p style={{fontSize: "1.5rem", color: "black", fontWeight: "bold"}}>{item.description}</p>
                             </p>
                           </div>
                         </div>
@@ -48,13 +48,13 @@ export default class Porfolio extends Component {
                     <a href="#modal-01">
                       
                       <div className="">
-                      <div className="portfolio-item-meta" style={{backgroundColor: "	#5F9EA0"}}>
+                      <div className="portfolio-item-meta" style={{backgroundImage: `url("images/card-bg.jpg")`}}>
                         <div class="card" style={{width: "18rem", height: "10rem"}}>
                           <div class="card-body">
                             <p class="card-text">
                             <h5 style={{fontSize: "2rem", color: "black", textDecoration: "underline overline"}}>{item.name1}</h5>
                             <br/>
-                            <p style={{fontSize: "1.5rem", color: "white", fontWeight: "bold"}}>{item.description1}</p>
+                            <p style={{fontSize: "1.5rem", color: "black", fontWeight: "bold"}}>{item.description1}</p>
                             </p>
                           </div>
                         </div>
@@ -80,13 +80,13 @@ export default class Porfolio extends Component {
                     <a href="#modal-01">
                       
                       <div className="">
-                      <div className="portfolio-item-meta" style={{backgroundColor: "	#5F9EA0"}}>
+                      <div className="portfolio-item-meta" style={{backgroundImage: `url("images/card-bg.jpg")`}}>
                         <div class="card" style={{width: "18rem", height: "10rem"}}>
                           <div class="card-body">
                             <p class="card-text">
                             <h5 style={{fontSize: "2rem", color: "black", textDecoration: "underline overline"}}>{item.name2}</h5>
                             <br/>
-                            <p style={{fontSize: "1.5rem", color: "white", fontWeight: "bold"}}>{item.description2}</p>
+                            <p style={{fontSize: "1.5rem", color: "black", fontWeight: "bold"}}>{item.description2}</p>
                             </p>
                           </div>
                         </div>
@@ -112,13 +112,13 @@ export default class Porfolio extends Component {
                     <a href="#modal-01">
                       
                       <div className="">
-                      <div className="portfolio-item-meta" style={{backgroundColor: "	#5F9EA0"}}>
+                      <div className="portfolio-item-meta" style={{backgroundImage: `url("images/card-bg.jpg")`}}>
                         <div class="card" style={{width: "18rem", height: "10rem"}}>
                           <div class="card-body">
                             <p class="card-text">
                             <h5 style={{fontSize: "2rem", color: "black", textDecoration: "underline overline"}}>{item.name3}</h5>
                             <br/>
-                            <p style={{fontSize: "1.5rem", color: "white", fontWeight: "bold"}}>{item.description3}</p>
+                            <p style={{fontSize: "1.5rem", color: "black", fontWeight: "bold"}}>{item.description3}</p>
                             </p>
                           </div>
                         </div>
