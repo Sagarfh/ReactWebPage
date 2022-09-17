@@ -83,87 +83,87 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project-1",
+        "name":"PROJECT-1",
         "description":"Grammatical Named Entity Recognition using NLP and Machine Learning (CNN)",
       },
       {
-        "name":"project-2",
+        "name":"PROJECT-2",
         "description":"Named Entity Recognition using NLP and SpaCy",
         
       },
       {
-        "name":"project-3",
+        "name":"PROJECT-3",
         "description":"Fake News Detection using NLP",
         
       },
       {
-        "name":"project-4",
+        "name":"PROJECT-4",
         "description":"Bangalore House Price Prediction using AngularJs",
         
       },
       {
-        "name":"project-4",
+        "name":"PROJECT-5",
         "description":"PhoneBook Directory using QT-Designer",
         
       }           
     ],
     "portfolio1":[
       {
-        "name1":"project-1",
+        "name1":"PROJECT-1",
         "description1":"CRUD Application Using ReactJs",
         
       },
       {
-        "name1":"project-2",
+        "name1":"PROJECT-2",
         "description1":"CRUD Application Using AngularJs",
         
       },
       {
-        "name1":"project-3",
+        "name1":"PROJECT-3",
         "description1":"CRUD Application Using VueJs",
         
       },
       {
-        "name1":"project-4",
+        "name1":"PROJECT-4",
         "description1":"React Web Page Builder Version-1",
         
       },
       {
-        "name1":"project-5",
+        "name1":"PROJECT-5",
         "description1":"React Web Page Builder Version-2",
         
       }
     ],
     "portfolio2":[
       {
-        "name2":"project-1",
+        "name2":"PROJECT-1",
         "description2":"Power House Management System (R&D)",
         
       },
       {
-        "name2":"project-2",
+        "name2":"PROJECT-2",
         "description2":"Student Record Management System",
         
       },
       {
-        "name2":"project-3",
+        "name2":"PROJECT-3",
         "description2":"Grocery Management System",
         
       },
       {
-        "name2":"project-4",
+        "name2":"PROJECT-4",
         "description2":"Computer Graphic Visualization",
         
       }
     ],
     "portfolio3":[
       {
-        "name3":"project-1",
+        "name3":"PROJECT-1",
         "description3":"College Management System Using Bootstrap and Wordpress",
         
       },
       {
-        "name3":"project-2",
+        "name3":"PROJECT-2",
         "description3":"Android Application Using GPS Sensor and API's",
         
       }
